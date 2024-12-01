@@ -38,7 +38,7 @@ MODULE_VERSION("0.1");						 ///< A version number to inform users
  * "clk_ignore_unused pd_ignore_unused" in kernel command line
  * 
 */
-#define BPMP_HOST_ALLOWS_ALL   0
+#define BPMP_HOST_ALLOWS_ALL   1
 
 #if BPMP_HOST_VERBOSE
 #define deb_info(...)     printk(KERN_INFO DEVICE_NAME ": "__VA_ARGS__)
